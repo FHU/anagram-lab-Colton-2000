@@ -6,8 +6,10 @@ def anagram(word1, word2):
     anagram = True
     letters1 = []
     letters2 = []
-    word1.replace(' ','')
-    word2.replace(' ','')
+    word1 = word1.replace(' ','')
+    word2 = word2.replace(' ','')
+    word1 = word1.lower()
+    word2 = word2.lower()
     for letter in word1:
         letters1.append(letter)
     for letter in word2:
