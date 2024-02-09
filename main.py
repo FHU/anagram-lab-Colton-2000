@@ -33,5 +33,3 @@ if __name__ == '__main__':
     word1 = input()
     word2 = input()
     print(anagram(word1, word2))
-    
-#comment to resubmit
