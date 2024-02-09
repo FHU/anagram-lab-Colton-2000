@@ -1,9 +1,9 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def anagram(word1, word2):
+    anagram = True
     if word1 == '' or word2 == '':
         anagram = False
         return anagram
-    anagram = True
     letters1 = []
     letters2 = []
     word1 = word1.replace(' ','')
