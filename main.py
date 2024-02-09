@@ -1,15 +1,15 @@
 #REMOVE PASS AND FIX THIS FUNCTION
 def anagram(word1, word2):
-    anagram = True
-    if word1 == '' or word2 == '':
-        anagram = False
-        return anagram
     letters1 = []
     letters2 = []
     word1 = word1.replace(' ','')
     word2 = word2.replace(' ','')
     word1 = word1.lower()
     word2 = word2.lower()
+    anagram = True
+    if word1 == '' or word2 == '':
+        anagram = False
+        return anagram
     for letter in word1:
         letters1.append(letter)
     for letter in word2:
